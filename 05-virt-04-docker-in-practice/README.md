@@ -80,7 +80,7 @@ See 'snap info docker' for additional versions.
 
      Образ собрался без проблем
 
-
+![1-1](screenshots/1-(1-1).png)
 
 
 3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker в venv. (Mysql БД можно запустить в docker run).
