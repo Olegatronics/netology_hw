@@ -29,7 +29,7 @@ See 'snap info docker' for additional versions.
 
 [**ответ**] В моём случае Docker-compose не был установлен
 
-![0-1](screenshots/0-1.png)
+![0-1](screenshots/0-1.jpg)
 
 2. Убедитесь что у вас УСТАНОВЛЕН ```docker compose```(без тире) версии не менее v2.24.X, для это выполните команду ```docker compose version```  
 
@@ -40,7 +40,7 @@ See 'snap info docker' for additional versions.
     ```
     После запуска команды ```docker compose version``` увидел, что docker compose был установлен нужной версии
 
-![0-2](screenshots/0-2.png)
+![0-2](screenshots/0-2.jpg)
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ---
