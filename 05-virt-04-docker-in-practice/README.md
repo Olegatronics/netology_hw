@@ -70,7 +70,7 @@ See 'snap info docker' for additional versions.
     CMD ["python", "main.py"]
     ```
 
-![1-1](screenshots/1-1.jpg)
+![1-1](screenshots/1-(1-1).jpg)
 
 
 3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker в venv. (Mysql БД можно запустить в docker run).
