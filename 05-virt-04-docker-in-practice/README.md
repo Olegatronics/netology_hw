@@ -29,7 +29,7 @@ See 'snap info docker' for additional versions.
 
 [**ответ**] В моём случае Docker-compose не был установлен
 
-![0-1](screenshots/0-1.jpg)
+![0-1](screenshots/0-1.png)
 
 2. Убедитесь что у вас УСТАНОВЛЕН ```docker compose```(без тире) версии не менее v2.24.X, для это выполните команду ```docker compose version```  
 
@@ -40,12 +40,12 @@ See 'snap info docker' for additional versions.
     ```
     После запуска команды ```docker compose version``` увидел, что docker compose был установлен нужной версии
 
-![0-2](screenshots/0-2.jpg)
+![0-2](screenshots/0-2.png)
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ---
 
-## Задача 1
+## Задача 1 (Задача + Решение)
 1. Сделайте в своем github пространстве fork [репозитория](https://github.com/netology-code/shvirtd-example-python/blob/main/README.md).
    Примечание: В связи с доработкой кода python приложения. Если вы уверены что задание выполнено вами верно, а код python приложения работает с ошибкой то используйте вместо main.py файл not_tested_main.py(просто измените CMD)
     
@@ -63,7 +63,7 @@ See 'snap info docker' for additional versions.
     ENV DB_HOST=172.20.0.10
     ENV DB_TABLE=requests
     ENV DB_USER=root
-    ENV DB_NAME=db1
+    ENV DB_NAME=hw2db
     ENV DB_PASSWORD=12345
 
     WORKDIR /app
@@ -72,6 +72,13 @@ See 'snap info docker' for additional versions.
     COPY main.py ./
     CMD ["python", "main.py"]
     ```
+    
+    [**ответ**] Запустил сборку образа командой
+     ```bash
+     sudo docker build  -f Dockerfile.python -t  hw2img .
+     ```
+
+     Образ собрался без проблем
 
 ![1-1](screenshots/1-(1-1).png)
 
