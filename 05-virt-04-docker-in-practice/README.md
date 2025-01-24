@@ -40,7 +40,7 @@ See 'snap info docker' for additional versions.
     ```
     После запуска команды ```docker compose version``` увидел, что docker compose был установлен нужной версии
 
-![1-1](screenshots/1-1.jpg)
+![0-2](screenshots/0-2.jpg)
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ---
